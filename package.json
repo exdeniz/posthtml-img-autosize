@@ -6,7 +6,6 @@
   "license": "MIT",
   "scripts": {
     "lint": "node_modules/.bin/eslint *.js lib/*.js test/",
-    "pretest": "npm run lint",
     "test": "nyc mocha --check-leaks"
   },
   "keywords": [
@@ -20,7 +19,8 @@
   ],
   "dependencies": {
     "image-size": "^0.9.1",
-    "normalize-path": "^3.0.0"
+    "normalize-path": "^3.0.0",
+    "probe-image-size": "^7.2.1"
   },
   "devDependencies": {
     "eslint": "^7.2.0",
